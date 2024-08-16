@@ -579,7 +579,7 @@ body {
 }
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-1 {
   --color: #ff0100;
-  z: 6;
+  z-index: 6;
   left: 0.7%;
   width: 1%;
   animation-delay: 1.43s;
