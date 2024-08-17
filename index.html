@@ -185,28 +185,44 @@
 
 <style>
   .credits {
-        position: absolute;
-        bottom: 20px; 
-        right: 20px;  
-        z-index: 2; 
-        font-size: 1em;
-        color: #1c1818;
-    }
+      position: absolute;
+      bottom: 20px; 
+      right: 20px;  
+      z-index: 2; 
+      font-size: 1em;
+      color: #1c1818;
+  }
 
-    .credits a {
-        color: #f5f0f0;
-        text-decoration: none;
-    }
+  .credits a {
+      color: #f5f0f0;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+  }
 
-    .credits a:hover {
-        text-decoration: underline;
-        color: rgb(241, 241, 247);
-    }
+  .credits a:hover {
+      text-decoration: underline;
+      color: #f5f0f0;
+      animation: rainbow 1s linear infinite;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+  }
+
+  @keyframes rainbow {
+      0% { color: #ff0000; }
+      16% { color: #ff7f00; }
+      32% { color: #ffff00; }
+      48% { color: #00ff00; }
+      64% { color: #0000ff; }
+      80% { color: #4b0082; }
+      100% { color: #8b00ff; }
+  }
 </style>
 
 <div class="credits">
   <a href="https://github.com/Aishwary2004Gupta" target="_blank">Made by Aishwary Gupta</a>
 </div>
+
 
 </body>
 </html>
