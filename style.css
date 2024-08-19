@@ -16,6 +16,7 @@ body {
   background-color: #000000ec;
   overflow: hidden;
 }
+
 #container netflixintro {
   display: block;
   position: relative;
@@ -30,6 +31,7 @@ body {
   background-size: 4000px;
   background-position: -1950px 0;
 }
+
 #container netflixintro::before {
   content: "";
   position: absolute;
@@ -45,9 +47,11 @@ body {
   background-size: 4000px;
   background-position: -1950px 0;
 }
+
 #container netflixintro[letter=N] {
   transform-origin: 30% center;
 }
+
 #container netflixintro[letter=N] .helper-1 {
   width: 19.5%;
   height: 100%;
@@ -60,16 +64,19 @@ body {
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro[letter=N] .helper-1 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
 }
+
 #container netflixintro[letter=N] .helper-1 .effect-brush [class*=fur-] {
   bottom: 0;
   height: 40%;
 }
+
 #container netflixintro[letter=N] .helper-3 {
   width: 19%;
   height: 150%;
@@ -79,12 +86,14 @@ body {
   box-shadow: 0px 0px 35px -12px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 }
+
 #container netflixintro[letter=N] .helper-3 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
 }
+
 #container netflixintro[letter=N] .helper-2 {
   width: 19.5%;
   height: 100%;
@@ -93,15 +102,18 @@ body {
   transform: rotate(180deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=N] .helper-2 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.5s;
 }
+
 #container netflixintro[letter=E] {
   transform-origin: 30% center;
 }
+
 #container netflixintro[letter=E] .helper-1 {
   width: 19.5%;
   height: 100%;
@@ -114,16 +126,19 @@ body {
   animation-delay: 0.6s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro[letter=E] .helper-1 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 1.2s;
 }
+
 #container netflixintro[letter=E] .helper-1 .effect-brush [class*=fur-] {
   bottom: 0;
   height: 40%;
 }
+
 #container netflixintro[letter=E] .helper-2 {
   width: 17.5%;
   height: 50%;
@@ -132,12 +147,14 @@ body {
   transform: rotate(270deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=E] .helper-2 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
 }
+
 #container netflixintro[letter=E] .helper-3 {
   width: 17%;
   height: 39%;
@@ -151,12 +168,14 @@ body {
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
+
 #container netflixintro[letter=E] .helper-3 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 0.6s;
 }
+
 #container netflixintro[letter=E] .helper-4 {
   width: 17.5%;
   height: 50%;
@@ -165,6 +184,7 @@ body {
   transform: rotate(270deg);
   overflow: hidden;
 }
+
 #container netflixintro[letter=E] .helper-4 .effect-brush {
   animation-name: brush-moving;
   animation-duration: 2s;
