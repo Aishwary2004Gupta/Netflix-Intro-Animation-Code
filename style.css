@@ -913,6 +913,7 @@ body {
   animation-name: lumieres-moving-left;
   animation-duration: 5.5s;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-2,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-4,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-6,
@@ -931,6 +932,7 @@ body {
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
+
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-2::before,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-4::before,
 #container netflixintro [class*=helper-] .effect-lumieres .lamp-6::before,
@@ -957,6 +959,7 @@ body {
     transform: translateY(-100%);
   }
 }
+
 @keyframes fading-out {
   0% {
     opacity: 1;
@@ -965,6 +968,7 @@ body {
     opacity: 0;
   }
 }
+
 @keyframes lumieres-moving-right {
   0% {
     transform: translate(0);
@@ -979,6 +983,7 @@ body {
     transform: translate(-120px) scaleX(3);
   }
 }
+
 @keyframes lumieres-moving-left {
   0% {
     transform: translate(0);
@@ -993,6 +998,7 @@ body {
     transform: translate(120px) scaleX(3);
   }
 }
+
 @keyframes zoom-in {
   0% {
     transform: scale(1);
@@ -1001,6 +1007,7 @@ body {
     transform: scale(15);
   }
 }
+
 @keyframes showing-lumieres {
   0% {
     opacity: 0;
@@ -1009,6 +1016,7 @@ body {
     opacity: 1;
   }
 }
+
 @keyframes fading-lumieres-box {
   0% {
     background-color: rgba(228, 9, 19, 0.5);
