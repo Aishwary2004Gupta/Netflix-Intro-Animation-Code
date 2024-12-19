@@ -1025,3 +1025,9 @@ body {
     background-color: rgba(228, 9, 19, 0);
   }
 }
+
+/* Display and animate the text after animation ends */
+#credits.show {
+  display: block;
+  animation: fadeIn 2s ease-in forwards;
+}
