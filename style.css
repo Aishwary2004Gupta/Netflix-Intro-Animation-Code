@@ -1049,7 +1049,6 @@ body {
   }
 }
 
-/* Display and animate the text after animation ends */
 #credit.show {
   display: block;
   animation: fadeIn 2s ease-in forwards;
