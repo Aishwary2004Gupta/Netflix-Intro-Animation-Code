@@ -6,4 +6,3 @@ document.addEventListener("DOMContentLoaded", () => {
         credits.classList.add('show');
     }, 3500);
   });
-  
