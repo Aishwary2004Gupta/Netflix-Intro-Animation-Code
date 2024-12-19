@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const credits = document.getElementById('credits');
+    const credits = document.getElementById('credit');
 
 
     setTimeout(() => {
