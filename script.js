@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     setTimeout(() => {
-      credits.classList.add('show');
+        credits.classList.add('show');
     }, 3500);
   });
   
