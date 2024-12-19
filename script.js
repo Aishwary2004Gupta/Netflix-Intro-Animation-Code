@@ -1,4 +1,3 @@
-// Wait for the page and animations to load
 document.addEventListener("DOMContentLoaded", () => {
     const credits = document.getElementById('credits');
   
